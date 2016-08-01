@@ -1,0 +1,9 @@
+[]
+
+/*{
+    "key": "ctrl+tab",
+    "command": "workbench.action.openNextEditor"
+}, {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.openPreviousEditor"
+}*/

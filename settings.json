@@ -1,0 +1,22 @@
+// User Settings
+{
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.openPositioning": "last",
+    // "window.openFilesInNewWindow": true,
+    "gitProjectManager.baseProjectsFolders": [
+        "/Users/sebastian/dev"
+    ],
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "beautify.onSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/vendor": true,
+        "**/build": true,
+        "**/build_*": true,
+        "**/compile": true,
+        "**/compile_*": true
+    }
+}
