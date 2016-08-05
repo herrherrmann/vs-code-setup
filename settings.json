@@ -7,8 +7,7 @@
         "/Users/sebastian/dev"
     ],
     "gitProjectManager.storeRepositoriesBetweenSessions": true,
-    "beautify.onSave": false,
-    // ["js", "json", "css"]
+    "beautify.onSave": ["js", "json", "css"],
     "beautify.CSSfiles": ["css", "scss", "less"],
     "editor.fontFamily": "SourceCodePro-Medium, Menlo, Monaco, monospace",
     "editor.fontSize": 12,
