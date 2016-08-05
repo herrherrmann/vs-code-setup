@@ -11,6 +11,7 @@
     "beautify.CSSfiles": ["css", "scss", "less"],
     "editor.fontFamily": "SourceCodePro-Medium, Menlo, Monaco, monospace",
     "editor.fontSize": 12,
+    "editor.scrollBeyondLastLine": false,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
