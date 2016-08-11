@@ -12,6 +12,7 @@
     "editor.fontFamily": "SourceCodePro-Medium, Menlo, Monaco, monospace",
     "editor.fontSize": 12,
     "editor.scrollBeyondLastLine": false,
+    "explorer.openEditors.visible": 0,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
