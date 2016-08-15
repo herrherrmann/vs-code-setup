@@ -1,4 +1,10 @@
-[]
+[{
+    "key": "alt+cmd+b",
+    "command": "HookyQR.beautify"
+}, {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.editor.changeLanguageMode"
+}]
 
 /*{
     "key": "ctrl+tab",
