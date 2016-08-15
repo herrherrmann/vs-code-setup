@@ -1,9 +1,15 @@
 [{
     "key": "alt+cmd+b",
-    "command": "HookyQR.beautify"
+    "command": "HookyQR.beautify",
+    "when": "editorTextFocus"
 }, {
     "key": "ctrl+shift+l",
-    "command": "workbench.action.editor.changeLanguageMode"
+    "command": "workbench.action.editor.changeLanguageMode",
+    "when": "editorTextFocus"
+}, {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus"
 }]
 
 /*{
