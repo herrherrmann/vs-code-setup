@@ -1,0 +1,16 @@
+{
+	"Add Glyphicon": {
+		"prefix": "icon",
+		"body": [
+			"<span class=\"glyphicon glyphicon-$1\"></span>"
+		],
+		"description": "Add Glyphicon (Bootstrap)"
+	},
+	"Add Font-Awesome Icon": {
+		"prefix": "fa",
+		"body": [
+			"<i class=\"fa fa-$1\"></i>"
+		],
+		"description": "Add Font-Awesome Icon"
+	}
+}
