@@ -2,7 +2,7 @@
 {
     "workbench.editor.enablePreview": false,
     "workbench.editor.openPositioning": "last",
-    // "window.openFilesInNewWindow": true,
+    "window.openFilesInNewWindow": false,
     "gitProjectManager.baseProjectsFolders": [
         "/Users/sebastian/dev"
     ],

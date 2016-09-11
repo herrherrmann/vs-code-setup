@@ -7,7 +7,7 @@
     "command": "workbench.action.editor.changeLanguageMode",
     "when": "editorTextFocus"
 }, {
-    "key": "ctrl+shift+l",
+    "key": "ctrl+shift+d",
     "command": "editor.action.deleteLines",
     "when": "editorTextFocus"
 }]

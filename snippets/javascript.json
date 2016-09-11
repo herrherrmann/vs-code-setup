@@ -1,18 +1,24 @@
 {
-	"Loggy": {
-		"prefix": "loggy",
-		"body": [
-			"console.log('${1}: ', $1);",
-			"$2"
-		],
-		"description": "Log variable (or whatever) to console"
-	},
-	"Timer": {
-		"prefix": "timer",
-		"body": [
-			"console.time('${1:function}');",
-			"console.timeEnd('${1:function}');$2"
-		],
-		"description": "Back to the future"
-	}
+    "Loggy": {
+        "prefix": "loggy",
+        "body": [
+            "console.log('${1}: ', $1);$2"
+        ],
+        "description": "Log variable (or whatever) including a label to console"
+    },
+    "Log": {
+        "prefix": "clog",
+        "body": [
+            "console.log($1);$2"
+        ],
+        "description": "Log variable (or whatever) to console"
+    },
+    "Timer": {
+        "prefix": "timer",
+        "body": [
+            "console.time('${1:function}');",
+            "console.timeEnd('${1:function}');$2"
+        ],
+        "description": "Back to the future"
+    }
 }

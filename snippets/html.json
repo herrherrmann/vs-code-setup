@@ -1,0 +1,9 @@
+{
+    "div": {
+        "prefix": "div",
+        "body": [
+            "<div ${1:class=\"$2\"}>$3</div>$4"
+        ],
+        "description": "Create a div with optional class property"
+    }
+}
