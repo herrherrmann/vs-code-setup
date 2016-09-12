@@ -23,5 +23,6 @@
         "**/build_*": true,
         "**/compile": true,
         "**/compile_*": true
-    }
+    },
+    "multiclip.formatAfterPaste": false
 }
