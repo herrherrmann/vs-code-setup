@@ -10,6 +10,12 @@
     "key": "ctrl+shift+d",
     "command": "editor.action.deleteLines",
     "when": "editorTextFocus"
+}, {
+    "key": "cmd+alt+s",
+    "command": "workbench.action.files.saveAll"
+}, {
+    "key": "cmd+r",
+    "command": "workbench.action.gotoSymbol"
 }]
 
 /*{
