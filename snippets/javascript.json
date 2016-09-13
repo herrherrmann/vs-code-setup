@@ -1,4 +1,13 @@
 {
+    "Function": {
+        "prefix": "fn",
+        "body": [
+            "function ${1:init}($2) {",
+            "    $3",
+            "}$4"
+        ],
+        "description": "A plain JS function"
+    },
     "Loggy": {
         "prefix": "loggy",
         "body": [
