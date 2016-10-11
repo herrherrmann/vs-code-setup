@@ -11,18 +11,26 @@
     "beautify.CSSfiles": ["css", "scss", "less"],
     "editor.fontFamily": "SourceCodePro-Medium, Menlo, Monaco, monospace",
     "editor.fontSize": 12,
+    "editor.lineNumbers": "off",
+    "editor.quickSuggestions": true,
+    "editor.renderIndentGuides": true,
     "editor.scrollBeyondLastLine": false,
     "explorer.openEditors.visible": 0,
     "files.exclude": {
+        // Common System Files:
+        "**/.DS_Store": true,
         "**/.git": true,
         "**/.svn": true,
-        "**/.DS_Store": true,
-        "**/node_modules": true,
-        "**/vendor": true,
+        // NPM & Build Scripts
         "**/build": true,
         "**/build_*": true,
         "**/compile": true,
-        "**/compile_*": true
+        "**/compile_*": true,
+        "**/node_modules": true,
+        "**/vendor": true,
+        // Cordova/Ionic:
+        "**/mobile/platforms": true,
+        "**/mobile/plugins": true
     },
     "multiclip.formatAfterPaste": false
 }
