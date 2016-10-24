@@ -8,7 +8,13 @@
     ],
     "gitProjectManager.storeRepositoriesBetweenSessions": true,
     "beautify.onSave": ["js", "json", "css"],
-    "beautify.CSSfiles": ["css", "scss", "less"],
+    "beautify.language": {
+        "css": [
+            "css",
+            "scss",
+            "less"
+        ]
+    },
     "editor.fontFamily": "SourceCodePro-Medium, Menlo, Monaco, monospace",
     "editor.fontSize": 12,
     "editor.lineNumbers": "off",
