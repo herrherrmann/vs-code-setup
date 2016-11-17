@@ -1,27 +1,27 @@
 [{
-    "key": "alt+cmd+b",
-    "command": "HookyQR.beautify",
-    "when": "editorTextFocus"
+	"key": "alt+cmd+b",
+	"command": "HookyQR.beautify",
+	"when": "editorTextFocus"
 }, {
-    "key": "ctrl+shift+l",
-    "command": "workbench.action.editor.changeLanguageMode",
-    "when": "editorTextFocus"
+	"key": "ctrl+shift+l",
+	"command": "workbench.action.editor.changeLanguageMode",
+	"when": "editorTextFocus"
 }, {
-    "key": "ctrl+shift+d",
-    "command": "editor.action.deleteLines",
-    "when": "editorTextFocus"
+	"key": "ctrl+shift+d",
+	"command": "editor.action.deleteLines",
+	"when": "editorTextFocus"
 }, {
-    "key": "cmd+alt+s",
-    "command": "workbench.action.files.saveAll"
+	"key": "cmd+alt+s",
+	"command": "workbench.action.files.saveAll"
 }, {
-    "key": "cmd+r",
-    "command": "workbench.action.gotoSymbol"
+	"key": "cmd+r",
+	"command": "workbench.action.gotoSymbol"
+}, {
+	"key": "ctrl+right",
+	"command": "editor.action.smartSelect.grow",
+	"when": "editorTextFocus"
+}, {
+	"key": "ctrl+left",
+	"command": "editor.action.smartSelect.shrink",
+	"when": "editorTextFocus"
 }]
-
-/*{
-    "key": "ctrl+tab",
-    "command": "workbench.action.openNextEditor"
-}, {
-    "key": "ctrl+shift+tab",
-    "command": "workbench.action.openPreviousEditor"
-}*/
