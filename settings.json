@@ -7,7 +7,6 @@
         "/Users/sebastian/dev"
     ],
     "gitProjectManager.storeRepositoriesBetweenSessions": true,
-    "beautify.onSave": ["js", "json", "css"],
     "beautify.language": {
         "css": [
             "css",
@@ -17,6 +16,7 @@
     },
     "editor.fontFamily": "SourceCodePro-Medium, Menlo, Monaco, monospace",
     "editor.fontSize": 12,
+    // "editor.formatOnSave": true,
     "editor.lineNumbers": "off",
     "editor.quickSuggestions": true,
     "editor.renderIndentGuides": true,
@@ -39,5 +39,23 @@
         "**/mobile/platforms": true,
         "**/mobile/plugins": true
     },
-    "multiclip.formatAfterPaste": false
+    "json.schemas": [{
+        "fileMatch": [
+            "/.eslintrc"
+        ],
+        "url": "http://json.schemastore.org/eslintrc"
+    }, {
+        "fileMatch": [
+            "/.jsbeautifyrc"
+        ],
+        "url": "http://json.schemastore.org/jsbeautifyrc"
+    }, {
+        "fileMatch": [
+            "/package.json"
+        ],
+        "url": "http://json.schemastore.org/package"
+    }],
+    "multiclip.formatAfterPaste": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "vsicons.projectDetection.disableDetect": true
 }
