@@ -16,7 +16,7 @@
     },
     "editor.fontFamily": "SourceCodePro-Medium, Menlo, Monaco, monospace",
     "editor.fontSize": 12,
-    "editor.formatOnSave": false,
+    // "editor.formatOnSave": true,
     "editor.lineNumbers": "off",
     "editor.quickSuggestions": true,
     "editor.renderIndentGuides": true,
@@ -41,6 +41,22 @@
         "**/mobile/platforms": true,
         "**/mobile/plugins": true
     },
+    "json.schemas": [{
+        "fileMatch": [
+            "/.eslintrc"
+        ],
+        "url": "http://json.schemastore.org/eslintrc"
+    }, {
+        "fileMatch": [
+            "/.jsbeautifyrc"
+        ],
+        "url": "http://json.schemastore.org/jsbeautifyrc"
+    }, {
+        "fileMatch": [
+            "/package.json"
+        ],
+        "url": "http://json.schemastore.org/package"
+    }],
     "git.confirmSync": false,
     "go.vetOnSave": true,
     "go.lintOnSave": true,
@@ -49,5 +65,7 @@
     "go.formatOnSave": true,
     "go.lintTool": "golint",
     "go.formatTool": "goimports",
-    "multiclip.formatAfterPaste": false
+    "multiclip.formatAfterPaste": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "vsicons.projectDetection.disableDetect": true
 }
