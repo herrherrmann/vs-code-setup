@@ -24,4 +24,12 @@
 	"key": "ctrl+left",
 	"command": "editor.action.smartSelect.shrink",
 	"when": "editorTextFocus"
+}, {
+	"key": "shift+cmd+n",
+	"command": "explorer.newFolder",
+	"when": "explorerViewletFocus && explorerViewletVisible"
+}, {
+	"key": "cmd+n",
+	"command": "explorer.newFile",
+	"when": "explorerViewletFocus && explorerViewletVisible"
 }]
