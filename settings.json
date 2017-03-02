@@ -7,7 +7,6 @@
         "/Users/sebastian/dev"
     ],
     "gitProjectManager.storeRepositoriesBetweenSessions": true,
-    "beautify.onSave": ["js", "json", "css"],
     "beautify.language": {
         "css": [
             "css",
@@ -17,11 +16,14 @@
     },
     "editor.fontFamily": "SourceCodePro-Medium, Menlo, Monaco, monospace",
     "editor.fontSize": 12,
+    "editor.formatOnSave": false,
     "editor.lineNumbers": "off",
     "editor.quickSuggestions": true,
     "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "none",
     "editor.scrollBeyondLastLine": false,
     "editor.snippetSuggestions": "top",
+    "editor.wordWrap": "off",
     "explorer.openEditors.visible": 0,
     "files.exclude": {
         // Common System Files:
@@ -39,5 +41,13 @@
         "**/mobile/platforms": true,
         "**/mobile/plugins": true
     },
+    "git.confirmSync": false,
+    "go.vetOnSave": true,
+    "go.lintOnSave": true,
+    "go.gocodeAutoBuild": true,
+    "go.coverOnSave": false,
+    "go.formatOnSave": true,
+    "go.lintTool": "golint",
+    "go.formatTool": "goimports",
     "multiclip.formatAfterPaste": false
 }
