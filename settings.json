@@ -1,12 +1,5 @@
 // User Settings
 {
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.openPositioning": "last",
-    "window.openFilesInNewWindow": false,
-    "gitProjectManager.baseProjectsFolders": [
-        "/Users/sebastian/dev"
-    ],
-    "gitProjectManager.storeRepositoriesBetweenSessions": true,
     "beautify.language": {
         "css": [
             "css",
@@ -41,6 +34,18 @@
         "**/mobile/platforms": true,
         "**/mobile/plugins": true
     },
+    "git.confirmSync": false,
+    "gitProjectManager.baseProjectsFolders": [
+        "/Users/sebastian/dev"
+    ],
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "go.vetOnSave": true,
+    "go.lintOnSave": true,
+    "go.gocodeAutoBuild": true,
+    "go.coverOnSave": false,
+    "go.formatOnSave": true,
+    "go.lintTool": "golint",
+    "go.formatTool": "goimports",
     "json.schemas": [{
         "fileMatch": [
             "/.eslintrc"
@@ -57,15 +62,10 @@
         ],
         "url": "http://json.schemastore.org/package"
     }],
-    "git.confirmSync": false,
-    "go.vetOnSave": true,
-    "go.lintOnSave": true,
-    "go.gocodeAutoBuild": true,
-    "go.coverOnSave": false,
-    "go.formatOnSave": true,
-    "go.lintTool": "golint",
-    "go.formatTool": "goimports",
     "multiclip.formatAfterPaste": false,
     "vsicons.dontShowNewVersionMessage": true,
-    "vsicons.projectDetection.disableDetect": true
+    "vsicons.projectDetection.disableDetect": true,
+    "window.openFilesInNewWindow": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.openPositioning": "last"
 }
