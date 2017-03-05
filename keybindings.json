@@ -32,4 +32,12 @@
 	"key": "cmd+n",
 	"command": "explorer.newFile",
 	"when": "explorerViewletFocus && explorerViewletVisible"
+}, {
+	"key": "shift+cmd+\\",
+	"command": "editor.emmet.action.matchingPair",
+	"when": "editorTextFocus"
+}, {
+	"key": "shift+cmd+\\",
+	"command": "editor.action.jumpToBracket",
+	"when": "editorTextFocus"
 }]
