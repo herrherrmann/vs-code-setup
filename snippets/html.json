@@ -19,5 +19,27 @@
             "<i class=\"fa fa-$1\"></i>$2"
         ],
         "description": "Add Font-Awesome Icon"
-    }
+    },
+    "Add Angular Form Input": {
+		"prefix": "input-angular",
+		"body": [
+			"<div class=\"form-group\" ng-class=\"{'has-feedback has-error': ${1:$ctrl.form.name}.$dirty && ${1:$ctrl.form.name}.$invalid}\">",
+			"	<label class=\"control-label\">",
+			"		${2:Name}",
+			"	</label>",
+			"	<input",
+			"		class=\"form-control\"",
+			"		type=\"text\"",
+			"		ng-model=\"${3:$ctrl.entity.name}\"",
+			"		name=\"${4:name}\"",
+			"		${5:required}>",
+			"	<span",
+			"		ng-show=\"${1:$ctrl.form.name}.$dirty && ${1:$ctrl.form.name}.$invalid\"",
+			"		class=\"glyphicon glyphicon-remove form-control-feedback\"",
+			"		aria-hidden=\"true\">",
+			"	</span>",
+			"</div>$6"
+		],
+		"description": "Add default Form Text Input for Angular 1.X (incl. validation)"
+	}
 }

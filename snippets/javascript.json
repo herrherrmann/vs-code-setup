@@ -15,6 +15,20 @@
         ],
         "description": "Log variable (or whatever) including a label to console"
     },
+    "Warny": {
+        "prefix": "warny",
+        "body": [
+            "console.warn('${1}: ', $1);$2"
+        ],
+        "description": "Log variable (or whatever) in warn mode to console"
+    },
+    "Errory": {
+        "prefix": "errory",
+        "body": [
+            "console.error('${1}: ', $1);$2"
+        ],
+        "description": "Log variable (or whatever) in error mode to console"
+    },
     "Log": {
         "prefix": "clog",
         "body": [
@@ -29,5 +43,26 @@
             "console.timeEnd('${1:function}');$2"
         ],
         "description": "Back to the future"
+    },
+    "Angular Component": {
+        "prefix": "angular-component",
+        "body": [
+            "angular.module('${1:app}')",
+            "",
+            ".component('${2:myComponent}', {",
+            "    templateUrl: '${3:my-component.tpl.html}',",
+            "    bindings: {",
+            "       $4",
+            "    },",
+            "    controller: function($5) {",
+            "       const $$ctrl = this;",
+            "       angular.extend($$ctrl, {",
+            "           $6",
+            "       });",
+            "       $7",
+            "    },",
+            "});"
+        ],
+        "description": "Add an Angular Component"
     }
 }
