@@ -1,10 +1,10 @@
 code --install-extension AndrsDC.base16-themes
 code --install-extension Compulim.compulim-vscode-closetag
 code --install-extension EditorConfig.EditorConfig
+code --install-extension eg2.vscode-npm-script
 code --install-extension HookyQR.beautify
 code --install-extension MattiasPernhult.vscode-todo
 code --install-extension Zignd.html-css-class-completion
-code --install-extension abusaidm.html-snippets
 code --install-extension akamud.vscode-caniuse
 code --install-extension alexandersage.angular1-code-snippets
 code --install-extension alexdima.copy-relative-path
@@ -17,12 +17,13 @@ code --install-extension felipecaputo.git-project-manager
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension herrherrmann.angular-bootstrap
 code --install-extension idleberg.icon-fonts
-code --install-extension joelday.docthis
 code --install-extension lukehoban.Go
+code --install-extension mrmlnc.vscode-less
 code --install-extension pflannery.vscode-versionlens
 code --install-extension pprice.better-merge
 code --install-extension pranaygp.vscode-css-peek
 code --install-extension robertohuertasm.vscode-icons
 code --install-extension slevesque.vscode-multiclip
+code --install-extension waderyan.gitblame
 code --install-extension wcwhitehead.bootstrap-3-snippets
 code --install-extension wmaurer.change-case
