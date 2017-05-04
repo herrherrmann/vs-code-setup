@@ -1,44 +1,26 @@
 {
-    "div": {
-        "prefix": "div",
-        "body": [
-            "<div ${1:class=\"$2\"}>$3</div>$4"
-        ],
-        "description": "Create a div with optional class property"
-    },
-    "Add Glyphicon": {
-        "prefix": "icon",
-        "body": [
-            "<span class=\"glyphicon glyphicon-$1\"></span>$2"
-        ],
-        "description": "Add Glyphicon (Bootstrap)"
-    },
-    "Add Font-Awesome Icon": {
-        "prefix": "fa",
-        "body": [
-            "<i class=\"fa fa-$1\"></i>$2"
-        ],
-        "description": "Add Font-Awesome Icon"
-    },
     "Add Angular Form Input": {
 		"prefix": "input-angular",
 		"body": [
-			"<div class=\"form-group\" ng-class=\"{'has-feedback has-error': ${1:$ctrl.form.name}.$dirty && ${1:$ctrl.form.name}.$invalid}\">",
+			"<div class=\"form-group\" ng-class=\"{'has-feedback has-error': ${1:$$ctrl.form.name}.$$dirty && !${1:$$ctrl.form.name}.$$valid}\">",
 			"	<label class=\"control-label\">",
 			"		${2:Name}",
 			"	</label>",
 			"	<input",
 			"		class=\"form-control\"",
 			"		type=\"text\"",
-			"		ng-model=\"${3:$ctrl.entity.name}\"",
+			"		ng-model=\"${3:$$ctrl.entity.name}\"",
 			"		name=\"${4:name}\"",
 			"		${5:required}>",
 			"	<span",
-			"		ng-show=\"${1:$ctrl.form.name}.$dirty && ${1:$ctrl.form.name}.$invalid\"",
+			"		ng-show=\"${1:$$ctrl.form.name}.$$dirty && !${1:$$ctrl.form.name}.$$valid\"",
 			"		class=\"glyphicon glyphicon-remove form-control-feedback\"",
 			"		aria-hidden=\"true\">",
 			"	</span>",
-			"</div>$6"
+			"	<small class=\"text-danger\" ng-show=\"${1:$$ctrl.form.name}.$$dirty && !${1:$$ctrl.form.name}.$$valid\">",
+			"		${6:Invalid value!}",
+			"	</small>",
+			"</div>$7"
 		],
 		"description": "Add default Form Text Input for Angular 1.X (incl. validation)"
 	}
