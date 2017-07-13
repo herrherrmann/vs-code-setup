@@ -7,8 +7,6 @@
             "less"
         ]
     },
-    "editor.fontFamily": "SourceCodePro-Medium, Menlo, Monaco, monospace",
-    "editor.fontSize": 12,
     // "editor.formatOnSave": true,
     "editor.lineNumbers": "off",
     "editor.quickSuggestions": true,

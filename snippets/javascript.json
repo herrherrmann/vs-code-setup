@@ -47,10 +47,8 @@
     "Angular Component": {
         "prefix": "angular-component",
         "body": [
-            "angular.module('${1:app}')",
-            "",
-            ".component('${2:myComponent}', {",
-            "    templateUrl: '${3:my-component.tpl.html}',",
+            "angular.module('${1:app}').component('${2:myComponent}', {",
+            "    templateUrl: '${3:myComponent.tpl.html}',",
             "    bindings: {",
             "       $4",
             "    },",
@@ -64,5 +62,17 @@
             "});"
         ],
         "description": "Add an Angular Component"
+    },
+    "Angular Factory": {
+        "prefix": "angular-factory",
+        "body": [
+            "angular.module('${1:app}').factory('${2:myUtilities}', (",
+            "    ",
+            ") => {",
+            "    $3",
+            "    return {};",
+            "});"
+        ],
+        "description": "Add an Angular Factory"
     }
 }
