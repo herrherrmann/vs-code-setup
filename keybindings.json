@@ -1,10 +1,14 @@
 [{
-	"key": "alt+cmd+b",
-	"command": "HookyQR.beautify",
-	"when": "editorTextFocus"
-}, {
 	"key": "ctrl+shift+l",
 	"command": "workbench.action.editor.changeLanguageMode",
+	"when": "editorTextFocus"
+}, {
+	"key": "shift+cmd+[Backslash]",
+	"command": "editor.emmet.action.matchingPair",
+	"when": "editorTextFocus"
+}, {
+	"key": "shift+cmd+[Backslash]",
+	"command": "editor.action.jumpToBracket",
 	"when": "editorTextFocus"
 }, {
 	"key": "ctrl+shift+d",
@@ -16,6 +20,12 @@
 }, {
 	"key": "cmd+r",
 	"command": "workbench.action.gotoSymbol"
+}, {
+	"key": "ctrl+-",
+	"command": "workbench.action.navigateBack"
+}, {
+	"key": "ctrl+shift+-",
+	"command": "workbench.action.navigateForward"
 }, {
 	"key": "ctrl+right",
 	"command": "editor.action.smartSelect.grow",
@@ -33,11 +43,11 @@
 	"command": "explorer.newFile",
 	"when": "explorerViewletFocus && explorerViewletVisible"
 }, {
-	"key": "shift+cmd+\\",
-	"command": "editor.emmet.action.matchingPair",
+	"key": "cmd+y",
+	"command": "editor.action.toggleRenderWhitespace",
 	"when": "editorTextFocus"
 }, {
-	"key": "shift+cmd+\\",
-	"command": "editor.action.jumpToBracket",
+	"key": "cmd+-",
+	"command": "editor.action.commentLine",
 	"when": "editorTextFocus"
 }]
