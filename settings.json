@@ -1,69 +1,72 @@
 // User Settings
 {
-    "beautify.language": {
-        "css": [
-            "css",
-            "scss",
-            "less"
-        ]
-    },
-    // "editor.formatOnSave": true,
-    "editor.lineNumbers": "off",
-    "editor.quickSuggestions": true,
-    "editor.renderIndentGuides": true,
-    "editor.renderWhitespace": "none",
-    "editor.scrollBeyondLastLine": false,
-    "editor.snippetSuggestions": "top",
-    "editor.wordWrap": "off",
-    "explorer.openEditors.visible": 0,
-    "files.exclude": {
-        // Common System Files:
-        "**/.DS_Store": true,
-        "**/.git": true,
-        "**/.svn": true,
-        // NPM & Build Scripts
-        "**/build": true,
-        "**/build_*": true,
-        "**/compile": true,
-        "**/compile_*": true,
-        "**/node_modules": true,
-        "**/vendor": true,
-        // Cordova/Ionic:
-        "**/mobile/platforms": true,
-        "**/mobile/plugins": true
-    },
-    "git.confirmSync": false,
-    "gitProjectManager.baseProjectsFolders": [
-        "/Users/sebastian/dev"
-    ],
-    "gitProjectManager.storeRepositoriesBetweenSessions": true,
-    "go.vetOnSave": true,
-    "go.lintOnSave": true,
-    "go.gocodeAutoBuild": true,
-    "go.coverOnSave": false,
-    "go.formatOnSave": true,
-    "go.lintTool": "golint",
-    "go.formatTool": "goimports",
-    "json.schemas": [{
-        "fileMatch": [
-            "/.eslintrc"
-        ],
-        "url": "http://json.schemastore.org/eslintrc"
-    }, {
-        "fileMatch": [
-            "/.jsbeautifyrc"
-        ],
-        "url": "http://json.schemastore.org/jsbeautifyrc"
-    }, {
-        "fileMatch": [
-            "/package.json"
-        ],
-        "url": "http://json.schemastore.org/package"
-    }],
-    "multiclip.formatAfterPaste": false,
-    "vsicons.dontShowNewVersionMessage": true,
-    "vsicons.projectDetection.disableDetect": true,
-    "window.openFilesInNewWindow": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.openPositioning": "last"
+	"beautify.language": {
+		"css": [
+			"css",
+			"scss",
+			"less"
+		]
+	},
+	"editor.lineNumbers": "off",
+	"editor.quickSuggestions": true,
+	"editor.renderIndentGuides": true,
+	"editor.renderWhitespace": "none",
+	"editor.scrollBeyondLastLine": false,
+	"editor.snippetSuggestions": "inline",
+	"editor.wordWrap": "off",
+	"emmet.includeLanguages": {},
+	"explorer.openEditors.visible": 0,
+	"files.exclude": {
+		// Common System Files:
+		"**/.DS_Store": true,
+		"**/.git": true,
+		"**/.svn": true,
+		// NPM & Build Scripts
+		"**/build": true,
+		"**/build_*": true,
+		"**/compile": true,
+		"**/compile_*": true,
+		"**/node_modules": true,
+		"**/vendor": true,
+		// Cordova/Ionic:
+		"**/mobile/platforms": true,
+		"**/mobile/plugins": true
+	},
+	"git.confirmSync": false,
+	"gitProjectManager.baseProjectsFolders": [
+		"/Users/sebastian/dev"
+	],
+	"gitProjectManager.storeRepositoriesBetweenSessions": true,
+	"go.vetOnSave": true,
+	"go.lintOnSave": true,
+	"go.gocodeAutoBuild": true,
+	"go.coverOnSave": false,
+	"go.formatOnSave": true,
+	"go.lintTool": "golint",
+	"go.formatTool": "goimports",
+	"json.schemas": [{
+		"fileMatch": [
+			"/.eslintrc"
+		],
+		"url": "http://json.schemastore.org/eslintrc"
+	}, {
+		"fileMatch": [
+			"/.jsbeautifyrc"
+		],
+		"url": "http://json.schemastore.org/jsbeautifyrc"
+	}, {
+		"fileMatch": [
+			"/package.json"
+		],
+		"url": "http://json.schemastore.org/package"
+	}],
+	"multiclip.formatAfterPaste": false,
+	"typescript.npm": "/Users/sebastian/.nvm/versions/node/v7.10.0/bin/npm",
+	"vsicons.dontShowNewVersionMessage": true,
+	"vsicons.projectDetection.disableDetect": true,
+	"window.openFilesInNewWindow": false,
+	"window.title": "${activeEditorLong} [${rootName}]",
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.openPositioning": "last",
+	"workbench.startupEditor": "newUntitledFile"
 }
