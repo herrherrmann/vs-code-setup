@@ -4,12 +4,12 @@
 	"when": "editorTextFocus"
 }, {
 	"key": "shift+cmd+[Backslash]",
-	"command": "editor.emmet.action.matchingPair",
-	"when": "editorTextFocus"
+	"command": "editor.emmet.action.matchTag",
+	"when": "editorLangId == html"
 }, {
 	"key": "shift+cmd+[Backslash]",
 	"command": "editor.action.jumpToBracket",
-	"when": "editorTextFocus"
+	"when": "editorLangId != html"
 }, {
 	"key": "ctrl+shift+d",
 	"command": "editor.action.deleteLines",
