@@ -5,11 +5,11 @@
 }, {
 	"key": "shift+cmd+[Backslash]",
 	"command": "editor.emmet.action.matchTag",
-	"when": "editorLangId == html"
+	"when": "editorTextFocus && editorLangId == html"
 }, {
 	"key": "shift+cmd+[Backslash]",
 	"command": "editor.action.jumpToBracket",
-	"when": "editorLangId != html"
+	"when": "editorTextFocus && editorLangId != html"
 }, {
 	"key": "ctrl+shift+d",
 	"command": "editor.action.deleteLines",
