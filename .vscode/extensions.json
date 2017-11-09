@@ -4,7 +4,6 @@
 		"Compulim.compulim-vscode-closetag",
 		"EditorConfig.EditorConfig",
 		"HookyQR.beautify",
-		"MattiasPernhult.vscode-todo",
 		"Tyriar.sort-lines",
 		"Zignd.html-css-class-completion",
 		"akamud.vscode-caniuse",
@@ -30,6 +29,7 @@
 		"steve8708.align",
 		"vilicvane.es-quotes",
 		"waderyan.gitblame",
+		"wayou.vscode-todo-highlight",
 		"wcwhitehead.bootstrap-3-snippets",
 		"wmaurer.change-case"
 	]
