@@ -1,11 +1,7 @@
 // User Settings
 {
 	"beautify.language": {
-		"css": [
-			"css",
-			"scss",
-			"less"
-		]
+		"css": ["css", "scss", "less"]
 	},
 	"editor.lineNumbers": "off",
 	"editor.minimap.enabled": false,
@@ -13,11 +9,15 @@
 	"editor.renderIndentGuides": true,
 	"editor.renderWhitespace": "none",
 	"editor.scrollBeyondLastLine": false,
+	"editor.smoothScrolling": true,
 	"editor.snippetSuggestions": "inline",
 	"editor.wordWrap": "off",
-	"emmet.includeLanguages": {},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
 	"explorer.openEditors.visible": 0,
 	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
 	"files.exclude": {
 		// Common System Files:
 		"**/.DS_Store": true,
@@ -30,27 +30,40 @@
 	},
 	"files.insertFinalNewline": true,
 	"git.confirmSync": false,
-	"json.schemas": [{
-		"fileMatch": [
-			"/.eslintrc"
-		],
-		"url": "http://json.schemastore.org/eslintrc"
-	}, {
-		"fileMatch": [
-			"/.jsbeautifyrc"
-		],
-		"url": "http://json.schemastore.org/jsbeautifyrc"
-	}, {
-		"fileMatch": [
-			"/package.json"
-		],
-		"url": "http://json.schemastore.org/package"
-	}],
+	"gitlens.annotations.line.trailing.format": "",
+	"gitlens.blame.line.enabled": true,
+	"gitlens.codeLens.enabled": false,
+	"gitlens.statusBar.enabled": true,
+	"json.schemas": [
+		{
+			"fileMatch": ["/.eslintrc"],
+			"url": "http://json.schemastore.org/eslintrc"
+		},
+		{
+			"fileMatch": ["/.jsbeautifyrc"],
+			"url": "http://json.schemastore.org/jsbeautifyrc"
+		},
+		{
+			"fileMatch": ["/package.json"],
+			"url": "http://json.schemastore.org/package"
+		}
+	],
+	"terminal.integrated.shell.osx": "/bin/zsh",
+	"terminal.external.osxExec": "iTerm.app",
+	"todohighlight.keywordsPattern": "TODO:|FIXME:|IDEA:|NOTE:",
+	"todohighlight.defaultStyle": {
+		"color": "black",
+		"backgroundColor": "#ffab00",
+		"overviewRulerColor": "#ffab00"
+	},
 	"typescript.npm": "/Users/sebastian/.nvm/versions/node/v7.10.0/bin/npm",
 	"vsicons.dontShowNewVersionMessage": true,
 	"window.openFilesInNewWindow": "off",
 	"window.title": "${activeEditorLong} [${rootName}]",
+	"window.zoomLevel": 0,
+	"workbench.colorTheme": "Base16 Dark Monokai",
 	"workbench.editor.enablePreview": false,
 	"workbench.editor.openPositioning": "last",
+	"workbench.iconTheme": "vscode-icons",
 	"workbench.startupEditor": "newUntitledFile"
 }
