@@ -30,10 +30,8 @@
 	},
 	"files.insertFinalNewline": true,
 	"git.confirmSync": false,
-	"gitlens.annotations.line.trailing.format": "",
-	"gitlens.blame.line.enabled": true,
+	"gitlens.blame.line.annotationType": "hover",
 	"gitlens.codeLens.enabled": false,
-	"gitlens.statusBar.enabled": true,
 	"json.schemas": [
 		{
 			"fileMatch": ["/.eslintrc"],
