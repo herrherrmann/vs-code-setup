@@ -6,7 +6,6 @@
 	"editor.lineNumbers": "off",
 	"editor.minimap.enabled": false,
 	"editor.quickSuggestions": true,
-	"editor.renderIndentGuides": true,
 	"editor.renderWhitespace": "none",
 	"editor.scrollBeyondLastLine": false,
 	"editor.smoothScrolling": true,
@@ -15,9 +14,9 @@
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact"
 	},
-	"explorer.openEditors.visible": 0,
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
+	"explorer.openEditors.visible": 0,
 	"files.exclude": {
 		// Common System Files:
 		"**/.DS_Store": true,
@@ -46,11 +45,11 @@
 			"url": "http://json.schemastore.org/package"
 		}
 	],
-	"terminal.integrated.shell.osx": "/bin/zsh",
 	"terminal.external.osxExec": "iTerm.app",
+	"terminal.integrated.shell.osx": "/bin/zsh",
 	"todohighlight.keywordsPattern": "TODO:|FIXME:|IDEA:|NOTE:",
 	"todohighlight.defaultStyle": {
-		"color": "black",
+		"color": "#000000",
 		"backgroundColor": "#ffab00",
 		"overviewRulerColor": "#ffab00"
 	},
