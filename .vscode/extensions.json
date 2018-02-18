@@ -1,6 +1,5 @@
 {
 	"recommendations": [
-		"AndrsDC.base16-themes",
 		"CoenraadS.bracket-pair-colorizer",
 		"Compulim.compulim-vscode-closetag",
 		"EditorConfig.EditorConfig",
@@ -21,6 +20,7 @@
 		"ecmel.vscode-html-css",
 		"eriklynd.json-tools",
 		"esbenp.prettier-vscode",
+		"formulahendry.auto-close-tag",
 		"henry-li.vscode-import-formatter",
 		"herrherrmann.angular-bootstrap",
 		"idleberg.icon-fonts",
@@ -29,13 +29,13 @@
 		"mrmlnc.vscode-less",
 		"natewallace.angular2-inline",
 		"nmsmith89.incrementor",
-		"pprice.better-merge",
 		"pranaygp.vscode-css-peek",
 		"robertohuertasm.vscode-icons",
 		"shinnn.stylelint",
 		"steve8708.align",
 		"vilicvane.es-quotes",
 		"wayou.vscode-todo-highlight",
+		"whtouche.vscode-js-console-utils",
 		"wix.vscode-import-cost",
 		"wmaurer.change-case"
 	]
