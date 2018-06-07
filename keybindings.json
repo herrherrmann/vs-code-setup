@@ -46,6 +46,14 @@
 		"when": "editorTextFocus"
 	},
 	{
+		"key": "alt+cmd+[Period]",
+		"command": "auto-close-tag.closeTag"
+	},
+	{
+		"key": "ctrl+shift+alt+up",
+		"command": "editor.action.selectToBracket"
+	},
+	{
 		"key": "shift+cmd+n",
 		"command": "explorer.newFolder",
 		"when": "explorerViewletFocus && explorerViewletVisible"
