@@ -1,7 +1,6 @@
 {
 	"recommendations": [
 		"CoenraadS.bracket-pair-colorizer",
-		"Compulim.compulim-vscode-closetag",
 		"EditorConfig.EditorConfig",
 		"HookyQR.beautify",
 		"NuclleaR.vscode-extension-auto-import",
@@ -17,8 +16,6 @@
 		"eriklynd.json-tools",
 		"esbenp.prettier-vscode",
 		"formulahendry.auto-close-tag",
-		"henry-li.vscode-import-formatter",
-		"herrherrmann.angular-bootstrap",
 		"idleberg.icon-fonts",
 		"michelemelluso.code-beautifier",
 		"mlewand.select-part-of-word",
@@ -29,7 +26,6 @@
 		"pranaygp.vscode-css-peek",
 		"robertohuertasm.vscode-icons",
 		"shinnn.stylelint",
-		"steve8708.align",
 		"tomphilbin.gruvbox-themes",
 		"vilicvane.es-quotes",
 		"wayou.vscode-todo-highlight",
