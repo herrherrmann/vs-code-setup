@@ -21,5 +21,40 @@
 			"console.timeEnd('${1:function}');$2"
 		],
 		"description": "Back to the future"
+	},
+	"React className": {
+		"prefix": "cN",
+		"body": ["className={styles.$1}"],
+		"description": "Use a React className via styles (CSS Modules)"
+	},
+	"Import Component's Styles": {
+		"prefix": "import styles",
+		"body": ["import styles from './${1:style.m}.less';"],
+		"description": "Import Component's Styles (CSS Modules)"
+	},
+	"rel noopener noreferrer": {
+		"prefix": "rel",
+		"body": ["rel=\"noopener noreferrer\""],
+		"description": "Secure that link"
+	},
+	"React Class Component": {
+		"prefix": "component",
+		"body": [
+			"import { Component } from 'react';",
+			"import PropTypes from 'prop-types';",
+			"",
+			"class ${1:MyComponent} extends Component {",
+			"    state = {$2};",
+			"    render() {",
+			"        return <>${3:Hi}</>;",
+			"    }",
+			"}",
+			"${1:MyComponent}.propTypes = {",
+			"    ${4:// TODO!}",
+			"};",
+			"",
+			"export default ${1:MyComponent};$5"
+		],
+		"description": "A React class component with state"
 	}
 }
