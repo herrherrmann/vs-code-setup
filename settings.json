@@ -1,8 +1,5 @@
-// User Settings
 {
-	"beautify.language": {
-		"css": ["css", "scss", "less"]
-	},
+	"editor.fontFamily": "Monaco, 'Courier New', monospace",
 	"editor.lineNumbers": "off",
 	"editor.minimap.enabled": false,
 	"editor.quickSuggestions": true,
@@ -29,6 +26,7 @@
 	},
 	"files.insertFinalNewline": true,
 	"git.confirmSync": false,
+	"gitlens.advanced.telemetry.enabled": false,
 	"gitlens.blame.line.annotationType": "hover",
 	"gitlens.codeLens.enabled": false,
 	"json.schemas": [
@@ -45,20 +43,18 @@
 			"url": "http://json.schemastore.org/package"
 		}
 	],
+	"search.smartCase": true,
+	"telemetry.enableTelemetry": false,
+	"telemetry.enableCrashReporter": false,
 	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.shell.osx": "/bin/zsh",
-	"todohighlight.keywordsPattern": "TODO:|FIXME:|IDEA:|NOTE:",
-	"todohighlight.defaultStyle": {
-		"color": "#000000",
-		"backgroundColor": "#ffab00",
-		"overviewRulerColor": "#ffab00"
-	},
-	"typescript.npm": "/Users/sebastian/.nvm/versions/node/v7.10.0/bin/npm",
+	"typescript.npm": "/Users/sebastian/.nvm/versions/node/v10.1.0/bin/npm",
 	"vsicons.dontShowNewVersionMessage": true,
 	"window.openFilesInNewWindow": "off",
-	"window.title": "${activeEditorLong} [${rootName}]",
+	"window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
 	"window.zoomLevel": 0,
-	"workbench.colorTheme": "Base16 Dark Monokai",
+	"workbench.colorTheme": "Monokai",
+	"workbench.commandPalette.preserveInput": true,
 	"workbench.editor.enablePreview": false,
 	"workbench.editor.openPositioning": "last",
 	"workbench.iconTheme": "vscode-icons",

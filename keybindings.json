@@ -46,6 +46,14 @@
 		"when": "editorTextFocus"
 	},
 	{
+		"key": "ctrl+shift+down",
+		"command": "editor.emmet.action.nextEditPoint"
+	},
+	{
+		"key": "ctrl+shift+up",
+		"command": "editor.emmet.action.prevEditPoint"
+	},
+	{
 		"key": "alt+cmd+[Period]",
 		"command": "auto-close-tag.closeTag"
 	},
@@ -72,5 +80,39 @@
 		"key": "cmd+-",
 		"command": "editor.action.commentLine",
 		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "-cursorLineEnd",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "editor.action.marker.nextInFiles",
+		"when": "editorFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+f",
+		"command": "-cursorRight",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+f",
+		"command": "references-view.find",
+		"when": "editorHasReferenceProvider"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "-editor.action.transposeLetters",
+		"when": "textInputFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "editor.action.rename",
+		"when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+cmd+k",
+		"command": "workbench.view.extension.bookmarks"
 	}
 ]
