@@ -112,6 +112,11 @@
 		"when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
 	},
 	{
+		"key": "ctrl+t",
+		"command": "editor.emmet.action.updateTag",
+		"when": "editorTextFocus && !editorReadonly && editorLangId == html"
+	},
+	{
 		"key": "shift+alt+cmd+k",
 		"command": "workbench.view.extension.bookmarks"
 	}
