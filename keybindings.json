@@ -119,5 +119,20 @@
 	{
 		"key": "shift+alt+cmd+k",
 		"command": "workbench.view.extension.bookmarks"
+	},
+	{
+		"key": "ctrl+d",
+		"command": "-deleteRight",
+		"when": "textInputFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+d",
+		"command": "editor.action.revealDefinition",
+		"when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+	},
+	{
+		"key": "f12",
+		"command": "-editor.action.revealDefinition",
+		"when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
 	}
 ]

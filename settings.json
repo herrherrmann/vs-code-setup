@@ -1,9 +1,14 @@
 {
+	"breadcrumbs.enabled": false,
+	"editor.autoIndent": false,
 	"editor.fontFamily": "Monaco, 'Courier New', monospace",
+	"editor.glyphMargin": false,
+	"editor.gotoLocation.multiple": "goto",
 	"editor.lineNumbers": "off",
 	"editor.minimap.enabled": false,
 	"editor.quickSuggestions": true,
 	"editor.renderWhitespace": "none",
+	"editor.rulers": [120],
 	"editor.scrollBeyondLastLine": false,
 	"editor.smoothScrolling": true,
 	"editor.snippetSuggestions": "inline",
@@ -14,6 +19,10 @@
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"explorer.openEditors.visible": 0,
+	"files.associations": {
+		// "*.js": "javascriptreact",
+		".stylelintrc": "json"
+	},
 	"files.exclude": {
 		// Common System Files:
 		"**/.DS_Store": true,
@@ -29,6 +38,25 @@
 	"gitlens.advanced.telemetry.enabled": false,
 	"gitlens.blame.line.annotationType": "hover",
 	"gitlens.codeLens.enabled": false,
+	"incrementor.enums": [
+		["false", "true"],
+		["let", "const"],
+		["margin-left", "margin-bottom", "margin-right", "margin-top"],
+		["padding-left", "padding-bottom", "padding-right", "padding-top"],
+		["padding", "margin"],
+		["border-left", "border-bottom", "border-right", "border-top"],
+		["none", "flex", "inline-block", "inline", "block"],
+		[
+			"space-evenly",
+			"space-between",
+			"space-around",
+			"stretch",
+			"baseline",
+			"center",
+			"flex-end",
+			"flex-start"
+		]
+	],
 	"json.schemas": [
 		{
 			"fileMatch": ["/.eslintrc"],
@@ -43,6 +71,9 @@
 			"url": "http://json.schemastore.org/package"
 		}
 	],
+	"less.validate": false,
+	"less.lint.duplicateProperties": "error",
+	"less.lint.zeroUnits": "warning",
 	"search.smartCase": true,
 	"telemetry.enableTelemetry": false,
 	"telemetry.enableCrashReporter": false,
@@ -57,6 +88,7 @@
 	"workbench.commandPalette.preserveInput": true,
 	"workbench.editor.enablePreview": false,
 	"workbench.editor.openPositioning": "last",
+	"workbench.enableExperiments": false,
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.startupEditor": "newUntitledFile"
 }
