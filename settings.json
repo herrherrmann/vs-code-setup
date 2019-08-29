@@ -1,4 +1,5 @@
 {
+	"blueprint.templatesPath": ["./blueprint-templates", "~/blueprint-templates"],
 	"breadcrumbs.enabled": false,
 	"editor.autoIndent": false,
 	"editor.fontFamily": "Monaco, 'Courier New', monospace",
@@ -13,22 +14,16 @@
 	"editor.smoothScrolling": true,
 	"editor.snippetSuggestions": "inline",
 	"editor.wordWrap": "off",
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact"
-	},
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"explorer.openEditors.visible": 0,
 	"files.associations": {
-		// "*.js": "javascriptreact",
 		".stylelintrc": "json"
 	},
 	"files.exclude": {
-		// Common System Files:
 		"**/.DS_Store": true,
 		"**/.git": true,
 		"**/.svn": true,
-		// NPM & Build Scripts
 		"**/build": true,
 		"**/compile": true,
 		"**/node_modules": true
@@ -36,7 +31,6 @@
 	"files.insertFinalNewline": true,
 	"git.confirmSync": false,
 	"gitlens.advanced.telemetry.enabled": false,
-	"gitlens.blame.line.annotationType": "hover",
 	"gitlens.codeLens.enabled": false,
 	"incrementor.enums": [
 		["false", "true"],
@@ -71,12 +65,12 @@
 			"url": "http://json.schemastore.org/package"
 		}
 	],
-	"less.validate": false,
 	"less.lint.duplicateProperties": "error",
 	"less.lint.zeroUnits": "warning",
+	"less.validate": false,
 	"search.smartCase": true,
-	"telemetry.enableTelemetry": false,
 	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
 	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.shell.osx": "/bin/zsh",
 	"typescript.npm": "/Users/sebastian/.nvm/versions/node/v10.1.0/bin/npm",
@@ -87,6 +81,7 @@
 	"workbench.colorTheme": "Monokai",
 	"workbench.commandPalette.preserveInput": true,
 	"workbench.editor.enablePreview": false,
+	"workbench.editor.labelFormat": "short",
 	"workbench.editor.openPositioning": "last",
 	"workbench.enableExperiments": false,
 	"workbench.iconTheme": "vscode-icons",
