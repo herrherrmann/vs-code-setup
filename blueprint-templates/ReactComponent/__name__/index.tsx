@@ -4,5 +4,5 @@ import style from './style.module.scss';
 type Props = {};
 
 export default function {{name}}({  }: Props) {
-    return <></>;
+	return <></>;
 }
