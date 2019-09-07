@@ -84,5 +84,20 @@
 			"};$3"
 		],
 		"description": "Add React PropTypes"
+	},
+	"React Component (TypeScript)": {
+		"prefix": "component",
+		"scope": "typescript,typescriptreact",
+		"body": [
+			"import React from 'react';",
+			"import style from './style.module.scss';",
+			"",
+			"type Props = {$2$3};",
+			"",
+			"export default function ${1:MyComponent}({ $2 }: Props) {",
+			"    return <>$4</>;",
+			"}$5"
+		],
+		"description": "A React class component with state"
 	}
 }
