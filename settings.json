@@ -1,10 +1,8 @@
 {
 	"blueprint.templatesPath": ["./blueprint-templates", "~/blueprint-templates"],
-	"breadcrumbs.enabled": false,
-	"editor.autoIndent": false,
+	"breadcrumbs.enabled": true,
 	"editor.fontFamily": "Monaco, 'Courier New', monospace",
 	"editor.glyphMargin": false,
-	"editor.gotoLocation.multiple": "goto",
 	"editor.lineNumbers": "off",
 	"editor.minimap.enabled": false,
 	"editor.quickSuggestions": true,
@@ -65,15 +63,13 @@
 			"url": "http://json.schemastore.org/package"
 		}
 	],
-	"less.lint.duplicateProperties": "error",
-	"less.lint.zeroUnits": "warning",
 	"less.validate": false,
 	"search.smartCase": true,
 	"telemetry.enableCrashReporter": false,
 	"telemetry.enableTelemetry": false,
 	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.shell.osx": "/bin/zsh",
-	"typescript.npm": "/Users/sebastian/.nvm/versions/node/v10.1.0/bin/npm",
+	"typescript.npm": "/Users/sebastian/.nvm/versions/node/v12.13.1/bin/npm",
 	"vsicons.dontShowNewVersionMessage": true,
 	"window.openFilesInNewWindow": "off",
 	"window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
