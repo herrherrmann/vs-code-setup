@@ -1,12 +1,11 @@
 {
 	"blueprint.templatesPath": ["./blueprint-templates", "~/blueprint-templates"],
-	"breadcrumbs.enabled": true,
 	"editor.fontFamily": "Monaco, 'Courier New', monospace",
 	"editor.glyphMargin": false,
 	"editor.lineNumbers": "off",
 	"editor.minimap.enabled": false,
 	"editor.quickSuggestions": true,
-	"editor.renderWhitespace": "none",
+	"editor.renderWhitespace": "selection",
 	"editor.rulers": [120],
 	"editor.scrollBeyondLastLine": false,
 	"editor.smoothScrolling": true,
@@ -49,27 +48,13 @@
 			"flex-start"
 		]
 	],
-	"json.schemas": [
-		{
-			"fileMatch": ["/.eslintrc"],
-			"url": "http://json.schemastore.org/eslintrc"
-		},
-		{
-			"fileMatch": ["/.jsbeautifyrc"],
-			"url": "http://json.schemastore.org/jsbeautifyrc"
-		},
-		{
-			"fileMatch": ["/package.json"],
-			"url": "http://json.schemastore.org/package"
-		}
-	],
 	"less.validate": false,
 	"search.smartCase": true,
 	"telemetry.enableCrashReporter": false,
 	"telemetry.enableTelemetry": false,
 	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.shell.osx": "/bin/zsh",
-	"typescript.npm": "/Users/sebastian/.nvm/versions/node/v12.13.1/bin/npm",
+	"typescript.npm": "/Users/sebastian/.nvm/versions/node/v13.7.0/bin/npm",
 	"vsicons.dontShowNewVersionMessage": true,
 	"window.openFilesInNewWindow": "off",
 	"window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
@@ -81,5 +66,6 @@
 	"workbench.editor.openPositioning": "last",
 	"workbench.enableExperiments": false,
 	"workbench.iconTheme": "vscode-icons",
-	"workbench.startupEditor": "newUntitledFile"
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.tree.indent": 12
 }
