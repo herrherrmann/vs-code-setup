@@ -11,6 +11,7 @@
 		"eamodio.gitlens",
 		"eriklynd.json-tools",
 		"esbenp.prettier-vscode",
+		"howardzuo.vscode-npm-dependency",
 		"jpoissonnier.vscode-styled-components",
 		"michelemelluso.code-beautifier",
 		"mrmlnc.vscode-less",
