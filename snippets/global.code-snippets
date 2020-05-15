@@ -44,6 +44,12 @@
 		"body": ["className={styles.$1}"],
 		"description": "Use a React className via styles"
 	},
+	"Use a React className via classNames and styles": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "cNs",
+		"body": ["className={classNames(styles.$1)}"],
+		"description": "Use a React className via classNames and styles"
+	},
 	"Import React": {
 		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "import react",
@@ -56,11 +62,17 @@
 		"body": ["import classNames from 'classnames';"],
 		"description": "Import classNames module"
 	},
-	"Import Component's Styles": {
+	"Import Component's Less Styles": {
 		"scope": "javascript,javascriptreact,typescript,typescriptreact",
-		"prefix": "import styles",
-		"body": ["import styles from './${1:style.m}.less';"],
-		"description": "Import Component's CSS Module"
+		"prefix": "import styles (Less)",
+		"body": ["import styles from './${1:styles.m}.less';"],
+		"description": "Import Component's CSS Module (Less)"
+	},
+	"Import Component's Sass Styles": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "import styles (Sass)",
+		"body": ["import styles from './${1:styles.m}.scss';"],
+		"description": "Import Component's CSS Module (Sass)"
 	},
 	"rel noopener noreferrer": {
 		"scope": "javascript,javascriptreact,typescript,typescriptreact",
@@ -90,7 +102,7 @@
 		"scope": "typescript,typescriptreact",
 		"body": [
 			"import React from 'react';",
-			"import style from './style.module.scss';",
+			"import styles from './styles.module.scss';",
 			"",
 			"type Props = {$2$3};",
 			"",
@@ -98,6 +110,6 @@
 			"    return <>$4</>;",
 			"}$5"
 		],
-		"description": "A React class component with state"
+		"description": "A React functional component"
 	}
 }
