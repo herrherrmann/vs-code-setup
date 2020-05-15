@@ -1,7 +1,6 @@
 {
 	"recommendations": [
 		"CoenraadS.bracket-pair-colorizer",
-		"HookyQR.beautify",
 		"Tyriar.sort-lines",
 		"aaron-bond.better-comments",
 		"akamud.vscode-caniuse",
@@ -15,9 +14,7 @@
 		"jpoissonnier.vscode-styled-components",
 		"michelemelluso.code-beautifier",
 		"mrmlnc.vscode-less",
-		"natewallace.angular2-inline",
 		"nmsmith89.incrementor",
-		"pnp.polacode",
 		"teamchilla.blueprint",
 		"thibaudcolas.stylelint",
 		"vilicvane.es-quotes",
