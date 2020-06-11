@@ -9,19 +9,22 @@
 		"dbaeumer.vscode-eslint",
 		"drknoxy.eslint-disable-snippets",
 		"eamodio.gitlens",
+		"eg2.vscode-npm-script",
 		"eriklynd.json-tools",
 		"esbenp.prettier-vscode",
+		"github.github-vscode-theme",
 		"howardzuo.vscode-npm-dependency",
 		"jpoissonnier.vscode-styled-components",
 		"michelemelluso.code-beautifier",
 		"mrmlnc.vscode-less",
 		"nmsmith89.incrementor",
 		"quicktype.quicktype",
+		"stylelint.vscode-stylelint",
 		"teamchilla.blueprint",
-		"thibaudcolas.stylelint",
 		"vilicvane.es-quotes",
 		"vscode-icons-team.vscode-icons",
 		"whtouche.vscode-js-console-utils",
-		"wmaurer.change-case"
+		"wmaurer.change-case",
+		"ziyasal.vscode-open-in-github"
 	]
 }
