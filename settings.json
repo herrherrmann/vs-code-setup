@@ -1,7 +1,8 @@
 {
 	"blueprint.templatesPath": ["./blueprint-templates", "~/blueprint-templates"],
-	"editor.fontFamily": "Monaco, 'Courier New', monospace",
+	"editor.fontFamily": "'Input Mono', Monaco, 'Courier New', monospace",
 	"editor.glyphMargin": false,
+	"editor.gotoLocation.multipleDefinitions": "goto",
 	"editor.lineNumbers": "off",
 	"editor.minimap.enabled": false,
 	"editor.quickSuggestions": true,
@@ -67,5 +68,5 @@
 	"workbench.enableExperiments": false,
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.startupEditor": "newUntitledFile",
-	"workbench.tree.indent": 12
+	"workbench.tree.indent": 14
 }
