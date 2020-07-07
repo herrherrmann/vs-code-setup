@@ -32,6 +32,7 @@
 	"git.confirmSync": false,
 	"gitlens.advanced.telemetry.enabled": false,
 	"gitlens.codeLens.enabled": false,
+	"gitlens.currentLine.enabled": false,
 	"incrementor.enums": [
 		["false", "true"],
 		["let", "const"],
@@ -68,7 +69,6 @@
 	"workbench.editor.labelFormat": "short",
 	"workbench.editor.openPositioning": "last",
 	"workbench.enableExperiments": false,
-	"workbench.fontAliasing": "auto",
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.quickOpen.preserveInput": true,
 	"workbench.startupEditor": "newUntitledFile",
