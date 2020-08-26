@@ -33,7 +33,7 @@
 	"gitlens.advanced.telemetry.enabled": false,
 	"gitlens.codeLens.enabled": false,
 	"gitlens.currentLine.enabled": false,
-	"incrementor.enums": [
+	"incrementor.enums.values": [
 		["false", "true"],
 		["let", "const"],
 		["margin-left", "margin-bottom", "margin-right", "margin-top"],
