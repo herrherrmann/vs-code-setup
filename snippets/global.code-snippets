@@ -86,16 +86,19 @@
 		"body": ["export default ${TM_SELECTED_TEXT};$2"],
 		"description": "export default"
 	},
-	"propTypes": {
-		"scope": "javascript,javascriptreact,typescript,typescriptreact",
-		"prefix": "proptypes",
+	"styled React Component": {
+		"prefix": "styled-component",
+		"scope": "typescript,typescriptreact",
 		"body": [
-			"import PropTypes from 'prop-types';",
-			"${1:myComponent}.propTypes = {",
-			"    $2",
-			"};$3"
-		],
-		"description": "Add React PropTypes"
+			"const ${1:StyledComponent} = styled${2:.div${3:<$4>}}(({ theme }) => ({",
+			"\t$5",
+			"}))"
+		]
+	},
+	"styled React Component (without theme)": {
+		"prefix": "styled-component-without-theme",
+		"scope": "typescript,typescriptreact",
+		"body": ["const ${1:StyledComponent} = styled${2:.div}({", "\t$3", "})$4"]
 	},
 	"React Component (TypeScript)": {
 		"prefix": "component",
@@ -111,5 +114,23 @@
 			"}$5"
 		],
 		"description": "A React functional component"
+	},
+	"margin template with all directions": {
+		"prefix": "margin",
+		"scope": "typescript,typescriptreact",
+		"body": "margin: `0 0 0 0`,"
+	},
+	"Test specification": {
+		"prefix": "describe",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"body": [
+			"describe('${1:myFunction()}', () => {",
+			"\ttest('${2:does something}', () => {",
+			"\t\tconst actual = ${3:doSomething()}",
+			"\t\tconst expected = ${4:true}",
+			"\t\texpect(actual).toBe(expected)",
+			"\t})",
+			"})"
+		]
 	}
 }
