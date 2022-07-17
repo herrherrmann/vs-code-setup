@@ -12,6 +12,7 @@
 		"GitHub.github-vscode-theme",
 		"GitLab.gitlab-workflow",
 		"Gruntfuggly.todo-tree",
+		"hjdarnel.vscode-change-case",
 		"howardzuo.vscode-npm-dependency",
 		"mikestead.dotenv",
 		"naumovs.color-highlight",
@@ -28,7 +29,6 @@
 		"vscode-icons-team.vscode-icons",
 		"whtouche.vscode-js-console-utils",
 		"wix.vscode-import-cost",
-		"wmaurer.change-case",
 		"ziyasal.vscode-open-in-github"
 	]
 }
